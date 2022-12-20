@@ -1,0 +1,10 @@
+p {
+	color: CadetBlue;
+	background: Crimson;
+	font-size: large;
+	text-align: center;
+}
+
+footer {
+	text-shadow: 2px 2px 8px green;
+}
