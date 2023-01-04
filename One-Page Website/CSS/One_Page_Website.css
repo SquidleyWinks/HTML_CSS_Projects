@@ -1,0 +1,131 @@
+h1, p {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+    font-size: 12pt;
+}
+
+#home p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 28pt;
+    text-align: center;
+}
+
+.reservation {
+    width: 60%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0px auto;
+    background-color: rgba(73, 164, 224, 0.3);
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 1), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.reservation h2 {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #13161B;
+    font-weight: 500;
+    font-size: 2.3em;
+    letter-spacing: 0pt;
+    word-spacing: 0pt;
+}
+
+.reservation p {
+    color: #13161B;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reservation form {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 12px 12px;
+    width: 70%;
+    border: 1px solid #808080;
+    margin: 2% auto;
+    border-radius: 7px;
+    background: rgb(227, 222, 222);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+    font-family: 'Raleway', sans-serif;
+}
+    
+ .reservation input[type="text"] {
+    font-size: 15px;
+    outline: none;
+    font-weight: 600;
+    color: #8D8E8F;
+    padding: 2% 1% 2% 7%;
+    width: 85%;
+    border-top: 1px solid #24bace;
+    border-right: 2px solid #c75b9d;
+    border-bottom: 2px solid #c75b9d;
+    border-left: 1px solid #24bace;
+    margin: 10px 1em;
+    border-radius: 17px;
+    background: #13161B;
+    box-shadow: inset 0px 3px 0px 0px rgba(5, 5, 5, 0.15);
+    font-family: 'Raleway', sans-serif;
+}
+
+.reservation input[type="text"]:hover {
+    box-shadow: 0 0 18px rgba(100, 65, 9, .8);
+}
+
+.form-spacer {
+    padding: 10px 19px;
+    background: blue;
+    /*margin: 20px 20px;*/
+    margin: 10px 1em;
+    border-radius: 17px;
+    border-bottom: 1px solid green;
+    border-right: 1px solid green;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    width: 88%;
+}
+
+
+.terms {
+    text-align: center;
+    color: red;
+}
+
+.terms:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit input[type="submit"] {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    font-weight: 900;
+    outline: none;
+    text-align: center;
+    margin: 0px 3%;
+    padding: 7px 0px;
+    width: 25%;
+    font-size: 18px;
+    transition: border-color 0.3s color 0.3s background-color 0.3s;
+    border-radius: 17px;
+    background-color: #797a7b;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.submit input[type="submit"]:hover {
+    color: #000;
+    background-color: #8D8E8F;
+    box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}

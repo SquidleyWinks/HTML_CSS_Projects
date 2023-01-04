@@ -4,6 +4,7 @@
 		<title>One Page Website</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="../Footer.css">
+		<link rel="stylesheet" href="./CSS/One_Page_Website.css">
 	</head>
 	<nav>
 		<a href="#home" id="link">Home</a>
@@ -22,9 +23,9 @@
 			<p>I wasn't sure if this assignment needed to be of a different topic<br>
 				from the website project we had already started. SO, I decided to<br>
 				throw something together real quick that would meet the minimum requirements<br>
-				while demonstrating maximum cuteness! Please enjoy, but do not touch (Even gently<br>
-				stroking your monitor screen will disrupt the cats, mostly through smudges,<br>
-				so please control yourself.)</p>
+				while demonstrating maximum cuteness! Please enjoy, but do not touch<br> 
+				(Even gently stroking your monitor screen will disrupt the cats,<br> 
+				mostly through smudges, so please control yourself.)</p>
 		</div>
 		<br>
 		<br>
@@ -35,6 +36,7 @@
 			<div id="video">
 				<iframe width="420" height="315" src="https://www.youtube.com/embed/CkVUd96yxNk"></iframe>
 				<p>While this isn't a video of my cats, they are the same breed featured in the video.</p>
+			</div>
 		</section>
 		<br>
 		<br>
@@ -45,25 +47,25 @@
 			<div id="pictures">
 			<h1>Pictures of My Cats!</h1>
 				<div>
-					<img src="./Rumplepuffs/This Face.jfif" alt="My Cat Leo">
+					<img src="./Rumplepuffs/This_Face.jfif" alt="My Cat Leo">
 						<p>This is Leo -- he is obsessed with strings and Fancy Feast.</p>
 						<br>
 					<img src="./Rumplepuffs/Paws.jfif" alt="Paw-paw close-up">
 						<p>This is a close-up of his little paw-paws. Do not touch them.</p>
 						<br>
-					<img src="./Rumplepuffs/Gremlin Squat.jfif" alt="My Cat Squeaks">
+					<img src="./Rumplepuffs/Gremlin_Squat.jfif" alt="My Cat Squeaks">
 						<p>This is Squeaks -- he is as ridiculous as his name implies.</p>
 						<br>
-					<img src="./Rumplepuffs/Sweet Baby.jfif" alt="He loves being held like a baby">
+					<img src="./Rumplepuffs/Sweet_Baby.jfif" alt="He loves being held like a baby">
 						<p>Every morning, he begs to be held like a little baby.</p>
 						<br>
-					<img src="./Rumplepuffs/Angry Baby.jfif" alt="Hey, hold me better!">
+					<img src="./Rumplepuffs/Angry_Baby.jfif" alt="Hey, hold me better!">
 						<p>Leo also likes being held like a baby, but he doesn't want that fact to damage his tough-guy reputation.</p>
 						<br>
 					<img src="./Rumplepuffs/Cuddles.jfif" alt="Cuddling Kitties">
 						<p>At night, they sleep on the couch togther, often cuddling for extra warmth.</p>
 						<br>
-					<img src="./Rumplepuffs/Sun Boys.jfif" alt="This seat is barely big enough for the both of us">
+					<img src="./Rumplepuffs/Sun_Boys.jfif" alt="This seat is barely big enough for the both of us">
 						<p>They will also cuddle in the daylight, but it is less common (and more competative, seat wise).</p>
 						<br>
 				</div>
@@ -75,27 +77,31 @@
 	<br>
 	<br>
 	<br>
-	<section>
-		<div id="contact">
+	<section id="contact">
+		<div>
 			<div>
 				<h1>Contact Form</h1>
-				<div>
+				<div class="reservation">
 					<h2>
 						Why you'd give us your info, I dunno!
 					</h2>
-					<p>
+					<br>
+					<p class="rsvp-text">
 						But if you find us trustworthy, or are morbidly curious, please provide us with your basic contact information.
 					</p>
-					<div>
-						<form action=" "method="post">
-							<input class="rsvp" type="text" value="First Name">
-							<input class="rsvp" type="text" value="Last Name">
-							<input class="rsvp" type="text" value="Email Address">
-							<input class="rsvp" type="text" value="Phone Number">
+					<div class="form-rsvp">
+						<form action="" method="post">
+							<input class="rsvp" type="text" value="" placeholder="First Name">
+							<input class="rsvp" type="text" value="" placeholder="Last Name">
+							<input class="rsvp" type="text" value="" placeholder="Email Address">
+							<input class="rsvp" type="text" value="" placeholder="Phone Number">
 							<div class="form-spacer">
-								<label class="terms">Terms and Conditions: Do Not pet the cats -- providing your contact info will not get you closer to their fuzzy heads and bellies</lablel>
+								<label class="terms">Terms and Conditions: Do Not pet the cats -- 
+									providing your contact info will not get you closer to their fuzzy heads and bellies
+									-- despite what you may have heard, they are vicious hunters who crave only the blood
+									of their enemies (and maybe a can of fancy feast, even if they just had one)</lablel>
 							</div>
-							<div>
+							<div class="submit">
 								<input type="submit" value="Submit">
 							</div>
 						</form>
