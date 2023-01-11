@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Phil Uebbing</title>
+        <link rel="stylesheet" type="text/css" href="./CSS/Portfolio_Stylesheet.css">
+    </head>
+
+    <body class="Background">
+
+        <!--NAVBAR-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#GitHub">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <br>
+        <br>
+
+        <!--BACKGROUND VIDEO-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="Typing.mp4" type="video/mp4">
+                <!--DISPLAY MESSAGE IF VIDEO FAILS-->
+                Your browser does not support HTML5 video :-(
+            </video>
+        </div>
+
+        <!--VIDEO TEXT-->
+        <div class="Video_Text">
+            <h1 class="white-text">Phil Uebbing's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>Look, I'm gonna be real honest here, the quote provided is all kinds of pretentious garbage.
+                        <br>I know I can do better.
+                    </q>
+                    <br> -Phil
+                    <br>
+                    <br> My name is Phil Uebbing. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br> Thank you for stopping by and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!--ABOUT-->
+        <div class="Row" id="About">
+            <!--LEFT-->
+            <div class="Column_2">
+                <img src=" " alt=" ">
+            </div>
+            <!--RIGHT-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    Write some brief, cheery bio.
+                </p>
+            </div>
+        </div>
+
+        <!--GitHub-->
+        <div class="Row" id="GitHub">
+            <!--LEFT-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/SquidleyWinks" target="_blank">Phil's GitHub</a></p>
+                </p>
+            </div>
+            <!--RIGHT-->
+            <div class="Column_2">
+                <a href="https://github.com/SquidleyWinks" target="_blank"><img src="GitHub.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--CONTACT-->
+        <div class="Row" id="Contact">
+            <!--CONTACT IMAGE-->
+            <div class="Column_2 Column_tall">
+                <img src=" " alt=" ">
+            </div>
+            <!--CONTACT FORM-->
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <form action="" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <footer>
+            <p>
+                <p class="center">&copy Phil Uebbing</p>
+                <br>
+            </p>
+        </footer>
+    </body>
+</html>
