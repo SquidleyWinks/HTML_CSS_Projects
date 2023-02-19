@@ -1,3 +1,19 @@
 This repository is for my HTML and CSS projects for The Tech Academy
 I'm currently a bit behind, so it might be minimal whenever possible.
+
+Projects:
+JLA Watchtower site
+--This page is an example of a home page for tours of the JLA's Watchtower. It's styled using CSS and contains a navbar, image containers, and a form.
+
+Pictures of my Cats One-page site
+--Minimally styled page featuring pictures of my cats, Squeaks and Leo. Ideally, I'll spruce it up more when I have some extra time.
+
+Movie Theater site
+--Example of a page for a Movie Theater styled using Bootstrap 4. It contains many Bootstrap components including but not limited to a navbar, jumbotron, form, cards, and dropdowns.
+
+Challenges site
+--This is an odd page, where I combined multiple challenges all into one page. The end result is weird for weirdness' sake, but features many different styled elements functioning together.
+
+Portfolio site
+--This is a page to serve as my portfolio for both Programming and my Writing. While I'm already very happy with the look, I hope to update it throughout the bootcamp to serve as a true personal site for everything I have going on.
 End README
