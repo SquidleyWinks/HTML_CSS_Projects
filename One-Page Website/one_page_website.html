@@ -5,6 +5,7 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="../Footer.css">
 		<link rel="stylesheet" href="./CSS/One_Page_Website.css">
+		<script src="./JS/One_Page_Website.js" defer></script>
 	</head>
 	<nav>
 		<a href="#home" id="link">Home</a>
@@ -46,28 +47,68 @@
 		<section>
 			<div id="pictures">
 			<h1>Pictures of My Cats!</h1>
-				<div>
-					<img src="./Rumplepuffs/This_Face.jfif" alt="My Cat Leo">
-						<p>This is Leo -- he is obsessed with strings and Fancy Feast.</p>
-						<br>
-					<img src="./Rumplepuffs/Paws.jfif" alt="Paw-paw close-up">
-						<p>This is a close-up of his little paw-paws. Do not touch them.</p>
-						<br>
-					<img src="./Rumplepuffs/Gremlin_Squat.jfif" alt="My Cat Squeaks">
-						<p>This is Squeaks -- he is as ridiculous as his name implies.</p>
-						<br>
-					<img src="./Rumplepuffs/Sweet_Baby.jfif" alt="He loves being held like a baby">
-						<p>Every morning, he begs to be held like a little baby.</p>
-						<br>
-					<img src="./Rumplepuffs/Angry_Baby.jfif" alt="Hey, hold me better!">
-						<p>Leo also likes being held like a baby, but he doesn't want that fact to damage his tough-guy reputation.</p>
-						<br>
-					<img src="./Rumplepuffs/Cuddles.jfif" alt="Cuddling Kitties">
-						<p>At night, they sleep on the couch togther, often cuddling for extra warmth.</p>
-						<br>
-					<img src="./Rumplepuffs/Sun_Boys.jfif" alt="This seat is barely big enough for the both of us">
-						<p>They will also cuddle in the daylight, but it is less common (and more competative, seat wise).</p>
-						<br>
+				<div class="row">
+					<div class="column">
+						<img src="./Rumplepuffs/small_This_Face.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="./Rumplepuffs/small_Gremlin_Squat.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="./Rumplepuffs/small_Sweet_Baby.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="./Rumplepuffs/small_Angry_Baby.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+					</div>
+				</div>
+
+				<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+
+						<div class="mySlides">
+							<div class="numbertext">1 / 4</div>
+							<img src="./Rumplepuffs/This_Face.jfif" style="width: 100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">2 / 4</div>
+							<img src="./Rumplepuffs/Gremlin_Squat.jfif" style="width: 100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">3 / 4</div>
+							<img src="./Rumplepuffs/Sweet_Baby.jfif" style="width: 100%">
+						</div>
+
+						<div class="mySlides">
+							<div class="numbertext">4 / 4</div>
+							<img src="./Rumplepuffs/Angry_Baby.jfif" style="width: 100%">
+						</div>
+
+						<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+						<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+						<div class="caption-container">
+							<p id="caption"></p>
+						</div>
+
+						<div class="column">
+							<img class="demo" src="./Rumplepuffs/small_This_Face.jpg" onclick="currentSlide(1)"  alt="This is Leo -- he is obsessed with strings and Fancy Feast.">
+						</div>
+
+						<div class="column">
+							<img class="demo" src="./Rumplepuffs/small_Gremlin_Squat.jpg" onclick="currentSlide(2)" alt="This is Squeaks -- he is as ridiculous as his name implies.">
+						</div>
+
+						<div class="column">
+							<img class="demo" src="./Rumplepuffs/small_Sweet_Baby.jpg" onclick="currentSlide(3)" alt="Every morning, he begs to be held like a little baby.">
+						</div>
+
+						<div class="column">
+							<img class="demo" src="./Rumplepuffs/small_Angry_Baby.jpg" onclick="currentSlide(4)" alt="Leo also likes being held like a baby, but he doesn't want that fact to damage his tough-guy reputation.">
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
